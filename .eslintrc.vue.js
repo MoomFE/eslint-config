@@ -144,8 +144,8 @@ module.exports = {
             'mixins'
           ]
         }],
-        // 禁止在模板中使用 this
-        'vue/this-in-template': ['error', 'always'],
+        // 防止在模板中使用 this
+        'vue/this-in-template': ['error', 'never'],
         // Script 缩进选项
         'vue/script-indent': ['error', 2, {
           baseIndent: 1,
