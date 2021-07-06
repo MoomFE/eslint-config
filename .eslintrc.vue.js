@@ -12,11 +12,6 @@ module.exports = {
       rules: {
         // 强制使用一致的缩进
         'indent': 'off',
-        // Vue 缩进选项
-        'vue/script-indent': ['error', 2, {
-          baseIndent: 1,
-          switchCase: 1
-        }],
         // 强制行的最大长度
         'max-len': ['error', 240, 2, {
           // 忽略含有链接的行
@@ -29,6 +24,63 @@ module.exports = {
           ignoreStrings: true,
           // 忽略包含模板字面量的行
           ignoreTemplateLiterals: true,
+        }],
+        // 属性断字
+        'vue/attribute-hyphenation': ['error', 'always'],
+        // 标签右括号换行
+        'vue/html-closing-bracket-newline': ['error', {
+          // 单行时是否需要在右括号前换行
+          singleline: 'never',
+          // 多行时是否需要在右括号前换行
+          multiline: 'always'
+        }],
+        // 标签右括号前的间距
+        'vue/html-closing-bracket-spacing': ['error', {
+          // 开始标签是否需要间距
+          startTag: 'never',
+          // 结束标签是否需要间距
+          endTag: 'never',
+          // 自闭合标签是否需要间距
+          selfClosingTag: 'always'
+        }],
+        // 必须有结束标签
+        'vue/html-end-tags': ['error'],
+        // HTML 缩进选项
+        'vue/html-indent': ['error', 2, {
+          // 属性缩进倍数
+          attribute: 1,
+          // 根节点缩进倍数
+          baseIndent: 1,
+          // 标签右括号缩进倍数
+          closeBracket: 0,
+          // 多行时, 是否需要与第一行垂直对齐
+          alignAttributesVertically: false
+        }],
+        // 引号
+        'vue/html-quotes': ['error', 'double', {
+          // 只要该字符串包含必须以其他方式转义的引号, 允许使用单引号或双引号
+          avoidEscape: true
+        }],
+        // 自关闭标签
+        'vue/html-self-closing': ['error', {
+          // HTML 元素
+          html: {
+            // 空元素
+            void: 'never',
+            // 默认元素
+            normal: 'always',
+            // Vue 组件
+            component: 'always'
+          },
+          // SVG 元素
+          svg: 'always',
+          // MathML 元素
+          math: 'always'
+        }],
+        // Script 缩进选项
+        'vue/script-indent': ['error', 2, {
+          baseIndent: 1,
+          switchCase: 1
         }]
       }
     }
