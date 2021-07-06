@@ -92,8 +92,58 @@ module.exports = {
         'vue/v-bind-style': ['error', 'shorthand'],
         // 统一 Vue 组件中 v-bind 指令风格
         'vue/v-on-style': ['error', 'shorthand'],
+        // 元素属性排序
+        'vue/attributes-order': ['error', {
+          // 排序顺序
+          order: [
+            // v-if, v-else-if, v-else, v-show, v-cloak
+            'CONDITIONALS',
+            // v-for
+            'LIST_RENDERING',
+            // is, v-is
+            'DEFINITION',
+            // v-once, v-pre
+            'RENDER_MODIFIERS',
+            // id
+            'GLOBAL',
+            // ref, key
+            'UNIQUE',
+            // slot, v-slot
+            'SLOT',
+            // v-model
+            'TWO_WAY_BINDING',
+            // v-custom-directive
+            'OTHER_DIRECTIVES',
+            // custom-prop="foo", v-bind:prop="foo", :prop="foo"
+            'OTHER_ATTR',
+            // v-text, v-html
+            'CONTENT',
+            // @click="functionCall" v-on="event"
+            'EVENTS'
+          ]
+        }],
         // 不应该传递多个参数给作用域插槽
         'vue/no-multiple-slot-args': ['error'],
+        // Vue 组件的属性排序
+        'vue/order-in-components': ['error', {
+          // 排序顺序
+          order: [
+            'name',
+            'el',
+            'functional',
+            'setup',
+            ['provide', 'inject'],
+            ['props', 'propsData'],
+            'data',
+            'computed',
+            ['template', 'render'],
+            'methods',
+            'LIFECYCLE_HOOKS',
+            'watch',
+            'components',
+            'mixins'
+          ]
+        }],
         // 禁止在模板中使用 this
         'vue/this-in-template': ['error', 'always'],
         // Script 缩进选项
