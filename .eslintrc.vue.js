@@ -77,6 +77,25 @@ module.exports = {
           // MathML 元素
           math: 'always'
         }],
+        // 统一插值语法的间距
+        'vue/mustache-interpolation-spacing': ['error', 'always'],
+        // 禁止标签中连续的空格
+        'vue/no-multi-spaces': ['error', {
+          // 忽略对象的属性
+          ignoreProperties: true
+        }],
+        // 禁止属性的等号周围有空格
+        'vue/no-spaces-around-equal-signs-in-attribute': ['error'],
+        // 统一 Vue 组件 Prop 名称风格
+        'vue/prop-name-casing': ['error', 'camelCase'],
+        // 统一 Vue 组件中 v-bind 指令风格
+        'vue/v-bind-style': ['error', 'shorthand'],
+        // 统一 Vue 组件中 v-bind 指令风格
+        'vue/v-on-style': ['error', 'shorthand'],
+        // 不应该传递多个参数给作用域插槽
+        'vue/no-multiple-slot-args': ['error'],
+        // 禁止在模板中使用 this
+        'vue/this-in-template': ['error', 'always'],
         // Script 缩进选项
         'vue/script-indent': ['error', 2, {
           baseIndent: 1,
