@@ -68,6 +68,8 @@ module.exports = {
     'no-continue': 'off',
     // 是否只有一个 export 时, 使用 default
     'import/prefer-default-export': 'off',
+    // 确保在导入路径中一致使用文件扩展名 ( 总是判断错误 )
+    'import/extensions': 'off',
     // 是否禁止连续赋值
     'no-multi-assign': 'off',
     // 是否禁止定义前使用
