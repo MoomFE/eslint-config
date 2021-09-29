@@ -1,6 +1,6 @@
 # Eslint Config
 
-| [基础版本](./README.md) | 基础版本 + Vue2 支持 | [基础版本 + Vue3 支持](./README.VUE3.md) |
+| [基础版本](./README.md) | [基础版本 + Vue2 支持](./README.VUE.md) | 基础版本 + Vue3 支持 |
 
 ## 安装
 
@@ -22,7 +22,7 @@
 module.exports = {
   root: true,
   extends: [
-    '@moomfe/eslint-config/.eslintrc.vue.js'
+    '@moomfe/eslint-config/.eslintrc.vue3.js'
   ],
   parserOptions: {
     parser: 'babel-eslint'
