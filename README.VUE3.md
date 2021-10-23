@@ -25,7 +25,7 @@ module.exports = {
     '@moomfe/eslint-config/.eslintrc.vue3.js'
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   }
 };
 ```
