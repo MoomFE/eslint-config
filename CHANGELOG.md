@@ -1,3 +1,5 @@
+  - 💄 更换 `babel-eslint` 为 `@babel/eslint-parser`
+
 # 1.4.0
   - 📅 2021-09-29
   - 🌟 新增 `Vue3` 的 `eslint` 配置
