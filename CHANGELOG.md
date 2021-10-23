@@ -1,3 +1,5 @@
+# 1.5.0
+  - 📅 2021-10-23
   - 💄 更换 `babel-eslint` 为 `@babel/eslint-parser`
 
 # 1.4.0
