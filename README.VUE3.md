@@ -6,10 +6,10 @@
 
 ```bash
 // NPM
-> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import babel-eslint eslint-plugin-vue --save-dev
+> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import @babel/core @babel/eslint-parser eslint-plugin-vue --save-dev
 
 // Yarn
-> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import babel-eslint eslint-plugin-vue --dev
+> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import @babel/core @babel/eslint-parser eslint-plugin-vue --dev
 ```
 
 ## 配置
