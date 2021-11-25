@@ -6,10 +6,10 @@
 
 ```bash
 // NPM
-> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import @babel/core @babel/eslint-parser eslint-plugin-vue --save-dev
+> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser @babel/core @babel/eslint-parser eslint-plugin-vue --save-dev
 
 // Yarn
-> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import @babel/core @babel/eslint-parser eslint-plugin-vue --dev
+> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser @babel/core @babel/eslint-parser eslint-plugin-vue --dev
 ```
 
 ## 配置
@@ -24,6 +24,7 @@ module.exports = {
   extends: [
     '@moomfe/eslint-config/.eslintrc.vue.js'
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@babel/eslint-parser',
     requireConfigFile: false

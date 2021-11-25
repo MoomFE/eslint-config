@@ -3,6 +3,7 @@ module.exports = {
     'plugin:vue/essential',
     './.eslintrc.js'
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@babel/eslint-parser'
   },
