@@ -1,3 +1,5 @@
+# 1.7.0
+  - 📅 2021-11-29
   - 🌟 新增 `Vue2` + `TS` 的 `eslint` 配置
   - 💄 屏蔽 `Vue` 的 `eslint` 配置的 `vue/multi-word-component-names` 规则
   - 💄 完善 README 文档
