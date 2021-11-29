@@ -152,6 +152,8 @@ module.exports = {
           baseIndent: 1,
           switchCase: 1
         }],
+        // 多字的组件名称
+        'vue/multi-word-component-names': 'off',
         // 使用 $emit() 触发事件时必须声明 emits 选项
         'vue/require-explicit-emits': ['error']
       }
