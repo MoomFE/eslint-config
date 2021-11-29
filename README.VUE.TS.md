@@ -1,17 +1,17 @@
 # Eslint Config
 
 | [基础版本](./README.md) |<br>
-| 基础版本 + Vue2 支持 | [基础版本 + Vue2 + TS 支持](./README.VUE.TS.md) |<br>
+| [基础版本 + Vue2 支持](./README.VUE.md) | 基础版本 + Vue2 + TS 支持 |<br>
 | [基础版本 + Vue3 支持](./README.VUE3.md) | [基础版本 + Vue3 + TS 支持](./README.VUE3.TS.md) |
 
 ## 安装
 
 ```bash
 // NPM
-> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser @babel/core @babel/eslint-parser eslint-plugin-vue --save-dev
+> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser typescript @typescript-eslint/parser eslint-plugin-vue --save-dev
 
 // Yarn
-> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser @babel/core @babel/eslint-parser eslint-plugin-vue --dev
+> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import vue-eslint-parser typescript @typescript-eslint/parser eslint-plugin-vue --dev
 ```
 
 ## 配置
@@ -28,8 +28,7 @@ module.exports = {
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@babel/eslint-parser',
-    requireConfigFile: false
+    parser: '@typescript-eslint/parser'
   }
 };
 ```

@@ -1,7 +1,7 @@
 # Eslint Config
 
 | [基础版本](./README.md) |<br>
-| [基础版本 + Vue2 支持](./README.VUE.md) |<br>
+| [基础版本 + Vue2 支持](./README.VUE.md) | [基础版本 + Vue2 + TS 支持](./README.VUE.TS.md) |<br>
 | 基础版本 + Vue3 支持 | [基础版本 + Vue3 + TS 支持](./README.VUE3.TS.md) |
 
 ## 安装
