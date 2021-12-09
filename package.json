@@ -1,11 +1,11 @@
 {
   "name": "@moomfe/eslint-config",
   "version": "1.7.0",
-  "description": "ESLint config 规则配置, 也支持 Vue2, Vue3 ",
+  "description": "ESLint config 规则配置, 也支持 Vue2, Vue3",
   "dependencies": {},
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
-    "eslint": "^8.3.0",
+    "eslint": "^8.4.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.24.2"
   },
