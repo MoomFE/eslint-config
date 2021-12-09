@@ -67,7 +67,7 @@ module.exports = {
           // HTML 元素
           html: {
             // 空元素
-            void: 'never',
+            void: 'always',
             // 默认元素
             normal: 'always',
             // Vue 组件
