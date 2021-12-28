@@ -1,56 +1,58 @@
-# 1.7.1
+## [Unreleased]
+
+## [v1.7.1]
   - 📅 2021-12-09
   - 💄 修改 `Vue` 的 `eslint` 配置的 `vue/html-self-closing` 规则
 
-# 1.7.0
+## [v1.7.0]
   - 📅 2021-11-29
   - 🌟 新增 `Vue2` + `TS` 的 `eslint` 配置
   - 💄 屏蔽 `Vue` 的 `eslint` 配置的 `vue/multi-word-component-names` 规则
   - 💄 完善 README 文档
 
-# 1.6.0
+## [v1.6.0]
   - 📅 2021-11-25
   - 🌟 新增 `Vue3` + `TS` 的 `eslint` 配置
   - 💄 `Vue` 版本使用 `vue-eslint-parser` 为 parser
   - 🐞 修复 README 文档错误
 
-# 1.5.0
+## [v1.5.0]
   - 📅 2021-10-23
   - 💄 更换 `babel-eslint` 为 `@babel/eslint-parser`
 
-# 1.4.0
+## [v1.4.0]
   - 📅 2021-09-29
   - 🌟 新增 `Vue3` 的 `eslint` 配置
 
-# 1.3.4
+## [v1.3.4]
   - 📅 2021-08-25
   - 💄 更新 README 文档
 
-# 1.3.3
+## [v1.3.3]
   - 📅 2021-08-25
   - 💄 屏蔽 `eslint` 配置的 `import/extensions` 规则
 
-# 1.3.2
+## [v1.3.2]
   - 📅 2021-07-28
   - 💄 修改 `Vue` 的 `eslint` 配置的 `vue/order-in-components` 规则, 提升 `setup`, `provide`, `inject` 的顺序
 
-# 1.3.1
+## [v1.3.1]
   - 📅 2021-07-06
   - 💄 修改 `Vue` 的 `eslint` 配置的 `vue/this-in-template` 规则, 禁止在 `template` 模板中使用 `this`
 
-# 1.3.0
+## [v1.3.0]
   - 📅 2021-07-06
   - 💄 新增更多 `Vue` 的 `eslint` 配置
 
-# 1.2.0
+## [v1.2.0]
   - 📅 2021-03-19
   - 🌟 新增 `Vue` 的 `eslint` 配置
 
-# 1.1.0
+## [v1.1.0]
   - 📅 2020-11-30
   - ⚠️ `eslint` 配置文件转为 `.js` 格式
 
-# 1.0.0
+## [v1.0.0]
   - 📅 2020-11-30
   - 🌟 基础的 `eslint` 配置已完成
 
@@ -75,3 +77,21 @@ CHANGELOG 图标规范
 - ⚠️: 与上一版本可能不兼容的功能更改<br>
 - 🐞: 问题修正<br>
 - 📅: 版本发布日期
+
+<br>
+<hr>
+<br>
+
+[Unreleased]: https://github.com/it-moom/Tools/compare/v1.7.1...HEAD
+[v1.7.1]: https://github.com/MoomFE/eslint-config/releases/tag/v1.7.1
+[v1.7.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.7.0
+[v1.6.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.6.0
+[v1.5.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.5.0
+[v1.4.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.4.0
+[v1.3.4]: https://github.com/MoomFE/eslint-config/releases/tag/v1.3.4
+[v1.3.3]: https://github.com/MoomFE/eslint-config/releases/tag/v1.3.3
+[v1.3.2]: https://github.com/MoomFE/eslint-config/releases/tag/v1.3.2
+[1.3.1]: https://github.com/MoomFE/eslint-config/releases/tag/1.3.1
+[1.3.0]: https://github.com/MoomFE/eslint-config/releases/tag/1.3.0
+[v1.1.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.1.0
+[v1.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.0.0
