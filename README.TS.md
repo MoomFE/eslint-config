@@ -1,6 +1,6 @@
 # Eslint Config
 
-| 基础版本 | [基础版本 + TS 支持](./README.TS.md) |<br>
+| [基础版本](./README.md) | 基础版本 + TS 支持 |<br>
 | [基础版本 + Vue2 支持](./README.VUE.md) | [基础版本 + Vue2 + TS 支持](./README.VUE.TS.md) |<br>
 | [基础版本 + Vue3 支持](./README.VUE3.md) | [基础版本 + Vue3 + TS 支持](./README.VUE3.TS.md) |
 
@@ -8,10 +8,10 @@
 
 ```bash
 // NPM
-> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import --save-dev
+> npm install @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import typescript @typescript-eslint/parser --save-dev
 
 // Yarn
-> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import --dev
+> yarn add @moomfe/eslint-config eslint eslint-config-airbnb-base eslint-plugin-import typescript @typescript-eslint/parser --dev
 ```
 
 ## 配置
@@ -25,7 +25,8 @@ module.exports = {
   root: true,
   extends: [
     '@moomfe/eslint-config/.eslintrc.js'
-  ]
+  ],
+  parser: '@typescript-eslint/parser',
 };
 ```
 
