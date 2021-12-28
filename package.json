@@ -1,6 +1,6 @@
 {
   "name": "@moomfe/eslint-config",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "ESLint config 规则配置, 也支持 Vue2, Vue3",
   "dependencies": {},
   "devDependencies": {
