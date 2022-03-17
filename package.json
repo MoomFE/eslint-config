@@ -9,6 +9,14 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoomFE/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MoomFE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/MoomFE/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },

@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v2.0.0]
+  - 📅 2022-03-17
+  - 使用 `@antfu/eslint-config` 作为基础继承配置
+
 ## [v1.8.1]
   - 📅 2021-12-28
   - 💄 更新 GitHub Actions 工作流
@@ -90,7 +94,10 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v1.7.1...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.0...HEAD
+[v2.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.0
+[v1.8.1]: https://github.com/MoomFE/eslint-config/releases/tag/v1.8.1
+[v1.8.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.8.0
 [v1.7.1]: https://github.com/MoomFE/eslint-config/releases/tag/v1.7.1
 [v1.7.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.7.0
 [v1.6.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.6.0
