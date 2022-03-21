@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v2.0.1]
+  - 📅 2022-03-21
   - 💄 禁用 `vue/singleline-html-element-content-newline` 规则
 
 ## [v2.0.0]

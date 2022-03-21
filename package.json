@@ -1,6 +1,6 @@
 {
   "name": "@moomfe/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "MoomFE ESLint config presets",
   "keywords": [],
   "license": "MIT",
