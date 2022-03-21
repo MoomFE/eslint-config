@@ -42,6 +42,8 @@ module.exports = {
             'EVENTS',
           ],
         }],
+        // 在单行元素的内容前后需要换行符
+        'vue/singleline-html-element-content-newline': 'off',
       },
     },
   ],

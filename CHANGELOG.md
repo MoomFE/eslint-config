@@ -1,8 +1,9 @@
 ## [Unreleased]
+  - 💄 禁用 `vue/singleline-html-element-content-newline` 规则
 
 ## [v2.0.0]
   - 📅 2022-03-17
-  - 使用 `@antfu/eslint-config` 作为基础继承配置
+  - 🌟 使用 `@antfu/eslint-config` 作为基础继承配置
 
 ## [v1.8.1]
   - 📅 2021-12-28
