@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v2.0.2]
+  - 📅 2022-03-30
+  - 💄 配置 `no-cond-assign`, 允许条件语句中出现赋值操作符, 前提是它们被圆括号括起来
+
 ## [v2.0.1]
   - 📅 2022-03-21
   - 💄 禁用 `vue/singleline-html-element-content-newline` 规则
@@ -98,7 +102,9 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.2...HEAD
+[v2.0.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.2
+[v2.0.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.1
 [v2.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.0
 [v1.8.1]: https://github.com/MoomFE/eslint-config/releases/tag/v1.8.1
 [v1.8.0]: https://github.com/MoomFE/eslint-config/releases/tag/v1.8.0
