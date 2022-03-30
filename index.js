@@ -54,5 +54,8 @@ module.exports = {
     //  - 必须使用分号
     'semi': ['error', 'always'],
     '@typescript-eslint/semi': ['error', 'always'],
+    // 禁止在条件语句中出现赋值操作符
+    //  - 允许条件语句中出现赋值操作符, 前提是它们被圆括号括起来
+    'no-cond-assign': ['error', 'except-parens'],
   },
 };
