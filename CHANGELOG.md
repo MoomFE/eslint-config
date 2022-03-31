@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v2.0.3]
+  - 📅 2022-03-31
+  - 💄 禁用 `eslint-comments/no-unlimited-disable` 规则
+
 ## [v2.0.2]
   - 📅 2022-03-30
   - 💄 配置 `no-cond-assign` 规则, 允许条件语句中出现赋值操作符, 前提是它们被圆括号括起来
@@ -102,7 +106,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.2...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.3...HEAD
+[v2.0.3]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.3
 [v2.0.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.2
 [v2.0.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.1
 [v2.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.0
