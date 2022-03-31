@@ -57,5 +57,8 @@ module.exports = {
     // 禁止在条件语句中出现赋值操作符
     //  - 允许条件语句中出现赋值操作符, 前提是它们被圆括号括起来
     'no-cond-assign': ['error', 'except-parens'],
+    // 禁止使用无规则名称的 `eslint-disable`
+    //  - 某些情况下还是需要使用 /* eslint-disable */ 来屏蔽所有规则的
+    'eslint-comments/no-unlimited-disable': 'off',
   },
 };
