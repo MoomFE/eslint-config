@@ -15,37 +15,6 @@ module.exports = {
           baseIndent: 1,
           switchCase: 1,
         }],
-        // 元素属性排序
-        'vue/attributes-order': ['error', {
-          order: [
-            // v-if, v-else-if, v-else, v-show, v-cloak
-            'CONDITIONALS',
-            // v-for
-            'LIST_RENDERING',
-            // is, v-is
-            'DEFINITION',
-            // v-once, v-pre
-            'RENDER_MODIFIERS',
-            // id
-            'GLOBAL',
-            // ref, key
-            'UNIQUE',
-            // slot, v-slot
-            'SLOT',
-            // v-model
-            'TWO_WAY_BINDING',
-            // v-custom-directive
-            'OTHER_DIRECTIVES',
-            // custom-prop="foo", v-bind:prop="foo", :prop="foo"
-            'OTHER_ATTR',
-            // v-text, v-html
-            'CONTENT',
-            // @click="functionCall" v-on="event"
-            'EVENTS',
-          ],
-        }],
-        // 在单行元素的内容前后需要换行符
-        'vue/singleline-html-element-content-newline': 'off',
       },
     },
   ],
@@ -60,5 +29,43 @@ module.exports = {
     // 禁止使用无规则名称的 `eslint-disable`
     //  - 某些情况下还是需要使用 /* eslint-disable */ 来屏蔽所有规则的
     'eslint-comments/no-unlimited-disable': 'off',
+    // Vue 文件中顶级元素的顺序
+    'vue/component-tags-order': ['error', {
+      order: [
+        ['script', 'template'],
+        'style',
+      ],
+    }],
+    // 元素属性排序
+    'vue/attributes-order': ['error', {
+      order: [
+        // v-if, v-else-if, v-else, v-show, v-cloak
+        'CONDITIONALS',
+        // v-for
+        'LIST_RENDERING',
+        // is, v-is
+        'DEFINITION',
+        // v-once, v-pre
+        'RENDER_MODIFIERS',
+        // id
+        'GLOBAL',
+        // ref, key
+        'UNIQUE',
+        // slot, v-slot
+        'SLOT',
+        // v-model
+        'TWO_WAY_BINDING',
+        // v-custom-directive
+        'OTHER_DIRECTIVES',
+        // custom-prop="foo", v-bind:prop="foo", :prop="foo"
+        'OTHER_ATTR',
+        // v-text, v-html
+        'CONTENT',
+        // @click="functionCall" v-on="event"
+        'EVENTS',
+      ],
+    }],
+    // 在单行元素的内容前后需要换行符
+    'vue/singleline-html-element-content-newline': 'off',
   },
 };
