@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v2.0.5]
+  - 📅 2022-04-07
   - 💄 配置 `vue/component-tags-order` 规则
 
 ## [v2.0.4]
