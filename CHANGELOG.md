@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v2.0.7]
+  - 📅 2022-05-23
+  - 💄 升级依赖类库
+
 ## [v2.0.6]
   - 📅 2022-04-22
   - 💄 禁用 `antfu/if-newline` 规则
@@ -119,7 +123,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.6...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.7...HEAD
+[v2.0.7]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.7
 [v2.0.6]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.6
 [v2.0.5]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.5
 [v2.0.4]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.4
