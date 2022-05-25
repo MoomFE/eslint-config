@@ -15,6 +15,11 @@ module.exports = {
           baseIndent: 1,
           switchCase: 1,
         }],
+        // 防止使用未知的 DOM 属性
+        //  - 在 Vue 中使用 JSX 时, 支持使用 class 设置样式类
+        'react/no-unknown-property': ['error', {
+          ignore: ['class'],
+        }],
       },
     },
   ],

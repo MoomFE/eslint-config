@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - 💄 配置 `.vue` 文件中的 `react/no-unknown-property` 规则
 
 ## [v2.0.7]
   - 📅 2022-05-23
