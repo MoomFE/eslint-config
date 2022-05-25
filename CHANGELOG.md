@@ -1,4 +1,8 @@
 ## [Unreleased]
+  - 💄 升级依赖类库
+
+## [v2.0.8]
+  - 📅 2022-05-25
   - 💄 配置 `.vue` 文件中的 `react/no-unknown-property` 规则
   - 💄 升级依赖类库
 
@@ -125,7 +129,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.7...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.0.8...HEAD
+[v2.0.8]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.8
 [v2.0.7]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.7
 [v2.0.6]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.6
 [v2.0.5]: https://github.com/MoomFE/eslint-config/releases/tag/v2.0.5
