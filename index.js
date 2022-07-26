@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 module.exports = {
   extends: '@antfu',
   overrides: [
@@ -74,5 +72,10 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 'off',
     // 在 if 语句后必须换行
     'antfu/if-newline': 'off',
+    // @ts-expect-error 等指令的描述不必填
+    '@typescript-eslint/ban-ts-comment': ['error', {
+      'ts-ignore': 'allow-with-description',
+      'minimumDescriptionLength': 0,
+    }],
   },
 };
