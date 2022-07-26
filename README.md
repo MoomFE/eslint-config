@@ -1,5 +1,11 @@
 # Eslint Config
 
+[![npm](https://img.shields.io/npm/v/@moomfe/eslint-config.svg)](https://www.npmjs.com/package/@moomfe/eslint-config)
+[![Downloads](https://img.shields.io/npm/dm/@moomfe/eslint-config.svg)](https://www.npmjs.com/package/@moomfe/eslint-config)
+
+
+<br>
+
 
 ## 安装
 
@@ -13,6 +19,9 @@
 // NPM
 > npm install eslint @moomfe/eslint-config -D
 ```
+
+
+<br>
 
 
 ## 配置
