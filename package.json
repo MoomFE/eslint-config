@@ -21,10 +21,10 @@
     "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^0.26.0"
+    "@antfu/eslint-config": "^0.26.1"
   }
 }
