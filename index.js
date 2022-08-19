@@ -18,6 +18,9 @@ module.exports = {
         'react/no-unknown-property': ['error', {
           ignore: ['class'],
         }],
+
+        // 仅在 React 中需要的规则, 在 Vue 中不需要
+        'react/prop-types': 'off',
       },
     },
   ],
