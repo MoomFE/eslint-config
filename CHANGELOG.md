@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - 💄 配置 `vue/order-in-components` 规则
 
 ## [v2.2.0]
   - 📅 2022-12-20
