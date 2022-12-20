@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v2.2.1]
+  - 📅 2022-12-20
   - 💄 配置 `vue/order-in-components` 规则
 
 ## [v2.2.0]
@@ -151,7 +154,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.2.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.2.1...HEAD
+[v2.2.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.2.1
 [v2.2.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.2.0
 [v2.1.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.1.2
 [v2.1.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.1.1
