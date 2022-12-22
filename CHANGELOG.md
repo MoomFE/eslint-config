@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v2.2.2]
+  - 📅 2022-12-22
   - 💄 禁用 `react/no-unknown-property` 规则
 
 ## [v2.2.1]
