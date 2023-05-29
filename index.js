@@ -97,5 +97,7 @@ module.exports = {
       'ts-ignore': 'allow-with-description',
       'minimumDescriptionLength': 0,
     }],
+    // 不允许未使用的导入
+    'unused-imports/no-unused-imports': 'off',
   },
 };

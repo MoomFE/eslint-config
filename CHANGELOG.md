@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - 💄 禁用 `unused-imports/no-unused-imports` 规则
 
 ## [v2.5.0]
   - 📅 2023-05-24
