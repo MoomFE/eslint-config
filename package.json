@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/MoomFE/eslint-config#readme",
   "dependencies": {
-    "eslint": "*",
-    "typescript": "*",
-    "@antfu/eslint-config": "*"
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6",
+    "@antfu/eslint-config": "^0.40.2"
   }
 }
