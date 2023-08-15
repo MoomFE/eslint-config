@@ -2,21 +2,31 @@ name: Node.js Package
 
 on:
   release:
-    types: ['released']
+    types: [released]
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
 
-      - uses: actions/setup-node@v2
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           registry-url: https://registry.npmjs.org/
+          cache: pnpm
 
-      - run: npm publish
+      - name: Publish Beta
+        if: contains(github.event.release.name, 'beta') == true
+        run: pnpm publish -r --access public --no-git-checks --tag beta
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish
+        if: contains(github.event.release.name, 'beta') == false
+        run: pnpm publish -r --access public --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
