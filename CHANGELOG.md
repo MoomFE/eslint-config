@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v2.7.0]
+  - 📅 2023-08-15
   - 💄 将 `eslint` 及 `typescript` 移至 `dependencies`
   - 💄 不限制依赖类库版本
 
@@ -181,7 +184,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.6.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.7.0...HEAD
+[v2.7.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.0
 [v2.6.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.6.0
 [v2.5.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.5.0
 [v2.4.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.4.1
