@@ -1,6 +1,6 @@
 ## [Unreleased]
 
-## [v2.7.1]
+## [v2.7.1] ~ [v2.7.2]
   - 📅 2023-08-15
   - 💄 限制依赖类库版本
 
@@ -188,7 +188,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v2.7.1...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v2.7.2...HEAD
+[v2.7.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.2
 [v2.7.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.1
 [v2.7.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.0
 [v2.6.0]: https://github.com/MoomFE/eslint-config/releases/tag/v2.6.0
