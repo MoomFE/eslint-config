@@ -11,13 +11,13 @@
 
 ```bash
 // Pnpm
-> pnpm add eslint @moomfe/eslint-config typescript -D
+> pnpm add @moomfe/eslint-config -D
 
 // Yarn
-> yarn add eslint @moomfe/eslint-config typescript -D
+> yarn add @moomfe/eslint-config -D
 
 // NPM
-> npm install eslint @moomfe/eslint-config typescript -D
+> npm install @moomfe/eslint-config -D
 ```
 
 

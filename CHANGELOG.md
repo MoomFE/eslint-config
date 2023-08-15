@@ -1,5 +1,6 @@
 ## [Unreleased]
   - 💄 升级依赖类库
+  - 💄 将 `eslint` 及 `typescript` 移至 `dependencies`
 
 ## [v2.6.0]
   - 📅 2023-05-29

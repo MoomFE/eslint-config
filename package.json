@@ -17,14 +17,9 @@
     "url": "https://github.com/MoomFE/eslint-config/issues"
   },
   "homepage": "https://github.com/MoomFE/eslint-config#readme",
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.47.0",
-    "typescript": "^5.1.6"
-  },
   "dependencies": {
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6",
     "@antfu/eslint-config": "^0.40.2"
   }
 }
