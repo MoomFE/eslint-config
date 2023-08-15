@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   '@antfu/eslint-config':
-    specifier: ^0.40.2
+    specifier: '*'
     version: 0.40.2(eslint@8.47.0)(typescript@5.1.6)
   eslint:
-    specifier: ^8.47.0
+    specifier: '*'
     version: 8.47.0
   typescript:
-    specifier: ^5.1.6
+    specifier: '*'
     version: 5.1.6
 
 packages:
