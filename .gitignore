@@ -1,2 +1,12 @@
+.cache
+.DS_Store
+.idea
+
+*.log
+*.tgz
+
 node_modules
-package-lock.json
+coverage
+dist
+
+.eslintcache

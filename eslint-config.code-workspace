@@ -4,16 +4,5 @@
       "path": "."
     }
   ],
-  "settings": {
-    "breadcrumbs.enabled": false,
-    "files.exclude": {
-      "eslint-config.code-workspace": true,
-      "package-lock.json": true
-    },
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  }
+  "settings": {}
 }

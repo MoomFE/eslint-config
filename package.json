@@ -1,14 +1,11 @@
 {
   "name": "@moomfe/eslint-config",
   "version": "2.7.2",
+  "packageManager": "pnpm@8.15.6",
   "description": "MoomFE ESLint config presets",
-  "keywords": [],
-  "license": "MIT",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MoomFE/eslint-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoomFE/eslint-config.git"
@@ -16,10 +13,39 @@
   "bugs": {
     "url": "https://github.com/MoomFE/eslint-config/issues"
   },
-  "homepage": "https://github.com/MoomFE/eslint-config#readme",
+  "keywords": [
+    "MoomFE",
+    "ESLint config presets"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "up": "npx taze latest -r -w -i",
+    "release": "npx bumpp -r --no-tag --no-push"
+  },
   "dependencies": {
-    "@antfu/eslint-config": "^0.40.2",
-    "eslint": "^8.47.0",
-    "typescript": "^5.1.6"
+    "@antfu/eslint-config": "^2.12.2",
+    "eslint": "^9.0.0",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.2",
+    "pnpm": "^8.15.6",
+    "simple-git-hooks": "^2.11.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": "eslint --cache --fix"
   }
 }
