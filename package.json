@@ -29,18 +29,21 @@
     "dist"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "up": "npx taze latest -r -w -i",
     "release": "npx bumpp -r --no-tag --no-push"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^2.12.2",
+    "@antfu/eslint-config": "^2.13.0",
     "eslint": "^9.0.0",
     "typescript": "^5.4.4"
   },
   "devDependencies": {
     "lint-staged": "^15.2.2",
     "pnpm": "^8.15.6",
-    "simple-git-hooks": "^2.11.1"
+    "simple-git-hooks": "^2.11.1",
+    "vue": "^3.4.21"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
