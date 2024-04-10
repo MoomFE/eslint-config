@@ -85,14 +85,12 @@ export default (options, ...userConfigs) => {
             'CONTENT',
             // v-custom-directive
             'OTHER_DIRECTIVES',
-            // v-bind:prop="foo", :prop="foo"
-            'ATTR_DYNAMIC',
             // id
             'GLOBAL',
-            // prop="foo" custom-prop="foo"
-            'ATTR_STATIC',
-            // boolean-prop
-            'ATTR_SHORTHAND_BOOL',
+            // ATTR_STATIC: prop="foo" custom-prop="foo"
+            // ATTR_DYNAMIC: v-bind:prop="foo", :prop="foo"
+            // ATTR_SHORTHAND_BOOL: boolean-prop
+            'OTHER_ATTR',
             // @click="functionCall", v-on="event"
             'EVENTS',
           ],
