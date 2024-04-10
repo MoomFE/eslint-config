@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v3.0.0-beta.2]
+  - 📅 2024-04-10
   - ⚠️ 修改默认导出, 现在导出为一个函数, 可进行定制化配置
   - 💄 修改 `vue/attributes-order` 规则属性排序顺序
 
@@ -195,7 +198,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0-beta.1...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0-beta.2...HEAD
+[v3.0.0-beta.2]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.2
 [v3.0.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.1
 [v2.7.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.2
 [v2.7.1]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.1
