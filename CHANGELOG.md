@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v3.0.0-beta.3]
+  - 📅 2024-04-10
   - 💄 优化类型定义
   - 💄 补全缺失的规则
 
@@ -200,7 +203,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0-beta.2...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0-beta.3...HEAD
+[v3.0.0-beta.3]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.3
 [v3.0.0-beta.2]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.2
 [v3.0.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.1
 [v2.7.2]: https://github.com/MoomFE/eslint-config/releases/tag/v2.7.2
