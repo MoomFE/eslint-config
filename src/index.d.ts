@@ -7,7 +7,7 @@ import type antfu from '@antfu/eslint-config';
  * @returns 合并的 ESLint 配置
  */
 declare function moomfe(
-  options: OptionsConfig,
+  options?: OptionsConfig,
   ...userConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[]>[]
 ): ReturnType<typeof antfu>;
 
