@@ -22,7 +22,6 @@ jobs:
       - name: Build
         run: |
           pnpm build
-          pnpm build:dts
         env:
           NODE_OPTIONS: --max-old-space-size=6144
 
