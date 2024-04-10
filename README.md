@@ -39,7 +39,7 @@ export default moomfe();
   // 启用 ESlint 的扁平配置支持
   "eslint.experimental.useFlatConfig": true,
 
-  // 禁用默认格式化程序, 使用 eslint 代替
+  // 禁用默认格式化程序, 使用 ESlint 代替
   "prettier.enable": false,
   "editor.formatOnSave": false,
 
@@ -49,7 +49,7 @@ export default moomfe();
     "source.organizeImports": "never"
   },
 
-  // 启用 eslint 对所有支持的语言
+  // 为所有支持的语言启用 ESlint
   "eslint.validate": [
     "javascript",
     "javascriptreact",
