@@ -30,7 +30,6 @@
   ],
   "scripts": {
     "build": "pnpm install && tsx scripts/build.ts",
-    "build:dts": "pnpm install && tsx scripts/build-dts.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "up": "npx taze latest -r -w -i",
@@ -42,10 +41,10 @@
     "typescript": "^5.4.4"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.2.0",
     "lint-staged": "^15.2.2",
     "pnpm": "^8.15.6",
-    "rollup": "^4.14.1",
-    "rollup-plugin-dts": "^6.1.0",
     "simple-git-hooks": "^2.11.1",
     "tsx": "^4.7.2",
     "vite": "^5.2.8",
