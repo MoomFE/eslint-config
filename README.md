@@ -6,7 +6,7 @@
 ## 安装
 
 ```bash
-npm i eslint @moomfe/eslint-config -D
+pnpm i eslint @moomfe/eslint-config -D
 ```
 
 ## 配置
