@@ -18,7 +18,7 @@ export default (options, ...userConfigs) => {
         'eslint-comments/no-unlimited-disable': 'off',
         // 允许在 if 语句后不换行
         'antfu/if-newline': 'off',
-        // @ts-expect-error 等指令的描述不必填
+        // `@ts-expect-error` 等指令的描述不必填
         'ts/ban-ts-comment': ['error', {
           'ts-ignore': 'allow-with-description',
           'minimumDescriptionLength': 0,
@@ -95,6 +95,8 @@ export default (options, ...userConfigs) => {
             'EVENTS',
           ],
         }],
+        // 单行元素的内容前后不需要换行符
+        'vue/singleline-html-element-content-newline': 'off',
       },
     },
     ...userConfigs,
