@@ -29,6 +29,8 @@
     "dist"
   ],
   "scripts": {
+    "build": "pnpm install && tsx scripts/build.ts",
+    "build:dts": "pnpm install && tsx scripts/build-dts.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "up": "npx taze latest -r -w -i",
@@ -42,7 +44,11 @@
   "devDependencies": {
     "lint-staged": "^15.2.2",
     "pnpm": "^8.15.6",
+    "rollup": "^4.14.1",
+    "rollup-plugin-dts": "^6.1.0",
     "simple-git-hooks": "^2.11.1",
+    "tsx": "^4.7.2",
+    "vite": "^5.2.8",
     "vue": "^3.4.21"
   },
   "simple-git-hooks": {
