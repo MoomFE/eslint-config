@@ -30,8 +30,8 @@
   ],
   "scripts": {
     "build": "pnpm install && tsx scripts/build.ts",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "pnpm install && eslint .",
+    "lint:fix": "pnpm install && eslint . --fix",
     "up": "npx taze latest -r -w -i",
     "release": "npx bumpp -r --no-tag --no-push"
   },
