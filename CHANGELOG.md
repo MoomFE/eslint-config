@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v3.0.0]
+  - 📅 2024-04-12
+  - 💄 升级依赖类库
+
 ## [v3.0.0-beta.3]
   - 📅 2024-04-10
   - 💄 优化类型定义
@@ -203,7 +207,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0-beta.3...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.0.0...HEAD
+[v3.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0
 [v3.0.0-beta.3]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.3
 [v3.0.0-beta.2]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.2
 [v3.0.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.1
