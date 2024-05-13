@@ -28,14 +28,14 @@ importers:
         specifier: ^15.2.2
         version: 15.2.2
       pnpm:
-        specifier: ^9.0.6
-        version: 9.0.6
+        specifier: ^9.1.1
+        version: 9.1.1
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
       tsx:
-        specifier: ^4.9.3
-        version: 4.9.3
+        specifier: ^4.10.1
+        version: 4.10.1
       vite:
         specifier: ^5.2.11
         version: 5.2.11(@types/node@20.12.7)
@@ -1471,8 +1471,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@9.0.6:
-    resolution: {integrity: sha512-9thjEwlzIHy3ozbWtDmiQqJqyAaAd99TDWqGBpQZhT3B/+ZAKexZSpxQWjpBDRlkPIcKumd2Mw9c/dzxCpwWFw==}
+  pnpm@9.1.1:
+    resolution: {integrity: sha512-FOkVdZwR936sB/q6TQGcGT7IY3Ip5i7Jnu+3zzw7dcZER4grfEhRQkUe46a0CAWc37e3+gNBuXXxLQ92KccRlQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1683,8 +1683,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  tsx@4.9.3:
-    resolution: {integrity: sha512-czVbetlILiyJZI5zGlj2kw9vFiSeyra9liPD4nG+Thh4pKTi0AmMEQ8zdV/L2xbIVKrIqif4sUNrsMAOksx9Zg==}
+  tsx@4.10.1:
+    resolution: {integrity: sha512-G+CcyTOopwhuI81FU+KpzGN5UBhHgGEDlGt8mHAXKxv8pDGr6WI7hI7aRjTRol5WzFVsSNuzl3ekCZ0eLIJlEQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -3314,7 +3314,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@9.0.6: {}
+  pnpm@9.1.1: {}
 
   postcss-selector-parser@6.0.16:
     dependencies:
@@ -3515,7 +3515,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsx@4.9.3:
+  tsx@4.10.1:
     dependencies:
       esbuild: 0.20.2
       get-tsconfig: 4.7.3
