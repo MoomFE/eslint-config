@@ -80,7 +80,7 @@ export default moomfe();
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [Wei Zhang](https://github.com/Zhang-Wei-666)
+[MIT](./LICENSE) License © 2020-PRESENT [Wei Zhang](https://github.com/Zhang-Wei-666)
 
 <!-- Badges -->
 
