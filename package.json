@@ -1,7 +1,7 @@
 {
   "name": "@moomfe/eslint-config",
   "version": "3.0.0",
-  "packageManager": "pnpm@9.3.0",
+  "packageManager": "pnpm@9.6.0",
   "description": "MoomFE ESLint config presets",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "license": "MIT",
@@ -36,19 +36,19 @@
     "release": "npx bumpp -r --no-tag --no-push"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^2.21.2",
-    "eslint": "^9.6.0",
-    "typescript": "^5.4.5"
+    "@antfu/eslint-config": "^2.23.1",
+    "eslint": "^9.7.0",
+    "typescript": "^5.5.3"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "fs-extra": "^11.2.0",
     "lint-staged": "^15.2.7",
-    "pnpm": "^9.3.0",
+    "pnpm": "^9.6.0",
     "simple-git-hooks": "^2.11.1",
-    "tsx": "^4.15.5",
-    "vite": "^5.3.1",
-    "vue": "^3.4.31"
+    "tsx": "^4.16.2",
+    "vite": "^5.3.4",
+    "vue": "^3.4.33"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
