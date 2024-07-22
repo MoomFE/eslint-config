@@ -12,4 +12,5 @@ if (a) console.log(a);
 
 // 下面这个指令的描述不必填
 // @ts-expect-error
+// eslint-disable-next-line ts/no-unused-expressions
 window.a;
