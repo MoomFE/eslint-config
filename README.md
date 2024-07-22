@@ -6,7 +6,7 @@
 ## 安装
 
 ```bash
-pnpm i eslint @moomfe/eslint-config -D
+pnpm i eslint typescript @moomfe/eslint-config -D
 ```
 
 ## 配置
@@ -36,9 +36,6 @@ export default moomfe();
 
 ```jsonc
 {
-  // 启用 ESlint 的扁平配置支持
-  "eslint.experimental.useFlatConfig": true,
-
   // 禁用默认格式化程序, 使用 ESlint 代替
   "prettier.enable": false,
   "editor.formatOnSave": false,
