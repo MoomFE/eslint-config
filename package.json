@@ -48,7 +48,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsx": "^4.16.3",
     "vite": "^5.3.5",
-    "vue": "^3.4.33"
+    "vue": "^3.4.35"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
