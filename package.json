@@ -38,7 +38,7 @@
   "dependencies": {
     "@antfu/eslint-config": "^2.23.1",
     "eslint": "^9.7.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
@@ -46,8 +46,8 @@
     "lint-staged": "^15.2.7",
     "pnpm": "^9.6.0",
     "simple-git-hooks": "^2.11.1",
-    "tsx": "^4.16.2",
-    "vite": "^5.3.4",
+    "tsx": "^4.16.3",
+    "vite": "^5.3.5",
     "vue": "^3.4.33"
   },
   "simple-git-hooks": {
