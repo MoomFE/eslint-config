@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v3.2.0]
+  - 📅 2024-08-02
   - 💄 允许 `ts/no-unused-expressions` 规则下的 `短路求值` 及 `三元表达式` 写法
   - 💄 升级依赖类库
 
@@ -213,7 +216,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.2.0...HEAD
+[v3.2.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.2.0
 [v3.1.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.1.0
 [v3.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0
 [v3.0.0-beta.3]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0-beta.3
