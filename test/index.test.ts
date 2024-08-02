@@ -14,3 +14,9 @@ if (a) console.log(a);
 // @ts-expect-error
 // eslint-disable-next-line ts/no-unused-expressions
 window.a;
+
+// 允许短路求值
+a && console.log(a);
+
+// 允许三元表达式
+a ? console.log(a) : console.log(a);

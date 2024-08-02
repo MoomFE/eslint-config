@@ -23,6 +23,11 @@ export default (options, ...userConfigs) => {
           'ts-ignore': 'allow-with-description',
           'minimumDescriptionLength': 0,
         }],
+        // 允许短路求值及三元表达式
+        'ts/no-unused-expressions': ['error', {
+          allowShortCircuit: true,
+          allowTernary: true,
+        }],
       },
     },
     {
