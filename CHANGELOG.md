@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - 💄 禁用 `style/jsx-one-expression-per-line` 规则
 
 ## [v3.2.0]
   - 📅 2024-08-02

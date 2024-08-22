@@ -104,6 +104,12 @@ export default (options, ...userConfigs) => {
         'vue/singleline-html-element-content-newline': 'off',
       },
     },
+    {
+      name: 'moomfe/jsx/rules',
+      rules: {
+        'style/jsx-one-expression-per-line': 'off',
+      },
+    },
     ...userConfigs,
   );
 };
