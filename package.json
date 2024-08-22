@@ -1,6 +1,6 @@
 {
   "name": "@moomfe/eslint-config",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "packageManager": "pnpm@9.7.1",
   "description": "MoomFE ESLint config presets",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",

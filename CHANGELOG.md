@@ -1,5 +1,9 @@
 ## [Unreleased]
+
+## [v3.3.0]
+  - 📅 2024-08-22
   - 💄 禁用 `style/jsx-one-expression-per-line` 规则
+  - 💄 升级依赖类库
 
 ## [v3.2.0]
   - 📅 2024-08-02
@@ -217,7 +221,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.2.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.3.0...HEAD
+[v3.3.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.3.0
 [v3.2.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.2.0
 [v3.1.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.1.0
 [v3.0.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.0.0
