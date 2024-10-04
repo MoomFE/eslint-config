@@ -1,5 +1,5 @@
-import { build } from 'vite';
 import fs from 'fs-extra';
+import { build } from 'vite';
 
 (async () => {
   await build({
