@@ -37,8 +37,8 @@
     "release": "npx bumpp -r --no-tag --no-push"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^3.7.3",
-    "eslint": "^9.11.1",
+    "@antfu/eslint-config": "^3.11.2",
+    "eslint": "^9.16.0",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
