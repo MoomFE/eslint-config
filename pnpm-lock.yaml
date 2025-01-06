@@ -28,8 +28,8 @@ importers:
         specifier: ^15.3.0
         version: 15.3.0
       pnpm:
-        specifier: ^9.15.2
-        version: 9.15.2
+        specifier: ^9.15.3
+        version: 9.15.3
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -37,8 +37,8 @@ importers:
         specifier: ^4.19.2
         version: 4.19.2
       vite:
-        specifier: ^6.0.6
-        version: 6.0.6(@types/node@20.12.7)(tsx@4.19.2)(yaml@2.6.1)
+        specifier: ^6.0.7
+        version: 6.0.7(@types/node@20.12.7)(tsx@4.19.2)(yaml@2.6.1)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
@@ -1744,8 +1744,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@9.15.2:
-    resolution: {integrity: sha512-k+V7ASbw33TOa/8paAOUwLpU7Ecka5zzIfASHY2bsD91CnBfJO3DwRgIU6/XwsO5QZbQo9U9PgadnieT7xHzIQ==}
+  pnpm@9.15.3:
+    resolution: {integrity: sha512-H3m8JFpm6wsHxdTYMTEkB3RkLKqobvfQQ0q0fA0W9msE4h4MCG62HmLHfvxNf37Aca+tN5avZIkvrmZQkXOJOg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2034,8 +2034,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite@6.0.6:
-    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
+  vite@6.0.7:
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3962,7 +3962,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@9.15.2: {}
+  pnpm@9.15.3: {}
 
   postcss-selector-parser@6.0.16:
     dependencies:
@@ -4245,7 +4245,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@6.0.6(@types/node@20.12.7)(tsx@4.19.2)(yaml@2.6.1):
+  vite@6.0.7(@types/node@20.12.7)(tsx@4.19.2)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
