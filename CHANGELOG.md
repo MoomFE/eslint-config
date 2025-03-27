@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [v3.5.0]
+  - 📅 2025-03-27
+  - 💄 升级依赖类库
+
 ## [v3.4.0]
   - 📅 2024-10-05
   - 💄 升级依赖类库
@@ -225,7 +229,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.4.0...HEAD
+[Unreleased]: https://github.com/it-moom/Tools/compare/v3.5.0...HEAD
+[v3.5.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.5.0
 [v3.4.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.4.0
 [v3.3.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.3.0
 [v3.2.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.2.0
