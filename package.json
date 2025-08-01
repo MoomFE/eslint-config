@@ -1,7 +1,7 @@
 {
   "name": "@moomfe/eslint-config",
   "version": "3.5.0",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.14.0",
   "description": "MoomFE ESLint config presets",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "license": "MIT",
@@ -45,8 +45,8 @@
     "@types/fs-extra": "^11.0.4",
     "fs-extra": "^11.3.0",
     "lint-staged": "^15.5.2",
-    "pnpm": "^10.12.4",
-    "simple-git-hooks": "^2.13.0",
+    "pnpm": "^10.14.0",
+    "simple-git-hooks": "^2.13.1",
     "tsx": "^4.20.3",
     "vite": "^6.3.5",
     "vue": "^3.5.18"
