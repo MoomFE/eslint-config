@@ -229,7 +229,7 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/it-moom/Tools/compare/v3.5.0...HEAD
+[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.5.0...HEAD
 [v3.5.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.5.0
 [v3.4.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.4.0
 [v3.3.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.3.0
