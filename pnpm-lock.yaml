@@ -28,8 +28,8 @@ importers:
         specifier: ^15.5.2
         version: 15.5.2
       pnpm:
-        specifier: ^10.17.1
-        version: 10.17.1
+        specifier: ^10.18.2
+        version: 10.18.2
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
@@ -1716,8 +1716,8 @@ packages:
   pnpm-workspace-yaml@0.3.1:
     resolution: {integrity: sha512-3nW5RLmREmZ8Pm8MbPsO2RM+99RRjYd25ynj3NV0cFsN7CcEl4sDFzgoFmSyduFwxFQ2Qbu3y2UdCh6HlyUOeA==}
 
-  pnpm@10.17.1:
-    resolution: {integrity: sha512-F8Vg/KSGeulHOjiZrYSogzSRTzeb5G1FXL+S5c9LOdNJhdRS0lg7rxmWf6dstcF7yeJFUp0LmHRXIapyAOyveg==}
+  pnpm@10.18.2:
+    resolution: {integrity: sha512-n7lp+nSbOt5gNeDxCfC4pgtdCKGof99y4zfakNzJMzbiKAyk5E8jWKZJuDwXlZ6Zk+d3wggIefOAHm8NmZrT3Q==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3902,7 +3902,7 @@ snapshots:
     dependencies:
       yaml: 2.7.0
 
-  pnpm@10.17.1: {}
+  pnpm@10.18.2: {}
 
   postcss-selector-parser@6.0.16:
     dependencies:
