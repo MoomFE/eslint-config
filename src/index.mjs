@@ -33,7 +33,7 @@ export default (options, ...userConfigs) => {
     },
     {
       name: 'moomfe/vue/rules',
-      files: [GLOB_VUE],
+      files: [GLOB_VUE, '**/*.uvue'],
       rules: {
         // <script> 缩进选项
         'vue/script-indent': ['error', 2, {
