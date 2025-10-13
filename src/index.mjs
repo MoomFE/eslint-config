@@ -3,11 +3,12 @@ import antfu, { GLOB_VUE } from '@antfu/eslint-config';
 export default (options, ...userConfigs) => {
   return antfu(
     {
+      ...options,
       stylistic: {
         // 必须使用分号
         semi: true,
+        ...options?.stylistic,
       },
-      ...options,
     },
     {
       name: 'moomfe/ts/rules',
