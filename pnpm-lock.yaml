@@ -37,8 +37,8 @@ importers:
         specifier: ^4.20.6
         version: 4.20.6
       vite:
-        specifier: ^7.1.9
-        version: 7.1.9(tsx@4.20.6)(yaml@2.8.1)
+        specifier: ^7.1.12
+        version: 7.1.12(tsx@4.20.6)(yaml@2.8.1)
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
@@ -1810,8 +1810,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@7.1.9:
-    resolution: {integrity: sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg==}
+  vite@7.1.12:
+    resolution: {integrity: sha512-ZWyE8YXEXqJrrSLvYgrRP7p62OziLW7xI5HYGWFzOvupfAlrLvURSzv/FyGyy0eidogEM3ujU+kUG1zuHgb6Ug==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3820,7 +3820,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.1.9(tsx@4.20.6)(yaml@2.8.1):
+  vite@7.1.12(tsx@4.20.6)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.5.0(picomatch@4.0.3)
