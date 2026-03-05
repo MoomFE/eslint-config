@@ -1,4 +1,6 @@
 ## [Unreleased]
+  - 💄 升级依赖类库
+  - 💄 禁用 `vue/attribute-hyphenation` 规则
 
 ## [v3.6.1]
   - 📅 2025-10-13

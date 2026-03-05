@@ -13,6 +13,7 @@
     title="moomfe"
     style="color: red"
     yyy
+    :isActive
     @click="() => {}"
   />
 
@@ -32,4 +33,5 @@
   const list = [1, 2, 3];
   const value = ref(0);
   const tag = 'div';
+  const isActive = ref(false);
 </script>
