@@ -103,6 +103,9 @@ export default (options, ...userConfigs) => {
         }],
         // 单行元素的内容前后不需要换行符
         'vue/singleline-html-element-content-newline': 'off',
+        // 关闭组件属性连字符命名强制, 以更好的支持 Vue 3.4+ 同名简写
+        // 例如在使用同名简写时, `:isActive` 将被解析为 `is-active`, 这时候通过变量名 `isActive` 通过 `Ctrl + D` 快速选中会非常不方便
+        'vue/attribute-hyphenation': ['error', 'never'],
       },
     },
     {
