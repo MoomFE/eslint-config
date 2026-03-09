@@ -4,23 +4,19 @@ on:
   release:
     types: [released]
 
-permissions:
-  id-token: write
-  contents: read
-
 jobs:
   publish:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v4
+    permissions:
+      contents: write
+      id-token: write
 
-      - name: Use Node.js v20
-        uses: actions/setup-node@v6
+    steps:
+      - name: Setup JS
+        uses: sxzz/workflows/setup-js@v1
         with:
-          node-version: 22.22.0
-          cache: pnpm
+          fetch-all: true
 
       - name: Build
         run: |
