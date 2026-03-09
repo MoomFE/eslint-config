@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 22.22.0
-          registry-url: https://registry.npmjs.org/
           cache: pnpm
 
       - name: Build
@@ -32,7 +31,11 @@ jobs:
       - name: Publish Beta
         if: contains(github.event.release.name, 'beta') == true
         run: pnpm publish -r --access public --no-git-checks --tag beta
+        env:
+          NODE_AUTH_TOKEN: ''
 
       - name: Publish
         if: contains(github.event.release.name, 'beta') == false
         run: pnpm publish -r --access public --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ''
