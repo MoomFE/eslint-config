@@ -1,6 +1,6 @@
 ## [Unreleased]
 
-## [v3.7.0]
+## [v3.7.0], [v3.7.1]
   - 📅 2026-03-09
   - 💄 升级依赖类库
   - 💄 禁用 `vue/attribute-hyphenation` 规则
