@@ -4,6 +4,10 @@ on:
   release:
     types: [released]
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -28,11 +32,7 @@ jobs:
       - name: Publish Beta
         if: contains(github.event.release.name, 'beta') == true
         run: pnpm publish -r --access public --no-git-checks --tag beta
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
         if: contains(github.event.release.name, 'beta') == false
         run: pnpm publish -r --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
