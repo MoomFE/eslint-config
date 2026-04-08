@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v3.8.0-beta.1]
+  - 📅 2026-04-08
   - 💄 升级依赖类库
   - 🐞 修复在非 `vue` 环境中使用时报错的问题
 
@@ -250,7 +253,15 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.5.0...HEAD
+[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.8.0-beta.1...HEAD
+[v3.8.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.8.0-beta.1
+[v3.7.4]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.4
+[v3.7.3]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.3
+[v3.7.2]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.2
+[v3.7.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.1
+[v3.7.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.0
+[v3.6.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.6.1
+[v3.6.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.6.0
 [v3.5.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.5.0
 [v3.4.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.4.0
 [v3.3.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.3.0
