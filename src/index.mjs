@@ -1,7 +1,95 @@
 import antfu, { GLOB_VUE } from '@antfu/eslint-config';
 
-export default (options, ...userConfigs) => {
-  return antfu(
+const GLOB_UVUE = '**/*.uvue';
+
+const MOOMFE_VUE_RULES = {
+  // <script> 缩进选项
+  'vue/script-indent': ['error', 2, {
+    baseIndent: 1,
+    switchCase: 1,
+  }],
+  // 与 `vue/script-indent` 规则冲突
+  'style/indent': 'off',
+  // 组件顶级元素顺序
+  'vue/block-order': ['error', {
+    order: [
+      ['script', 'template'],
+      'style',
+    ],
+  }],
+  // 选项式组件属性排序
+  'vue/order-in-components': ['error', {
+    order: [
+      'name',
+      'extends',
+      'functional',
+      'model',
+      ['provide', 'inject'],
+      ['props', 'propsData'],
+      'emits',
+      'setup',
+      'data',
+      'computed',
+      'methods',
+      ['template', 'render'],
+      'watch',
+      'LIFECYCLE_HOOKS',
+      ['components', 'directives', 'filters'],
+      'mixins',
+    ],
+  }],
+  // 属性顺序
+  'vue/attributes-order': ['error', {
+    order: [
+      // v-if, v-else-if, v-else, v-show, v-cloak
+      'CONDITIONALS',
+      // v-for
+      'LIST_RENDERING',
+      // ref, key
+      'UNIQUE',
+      // is, v-is
+      'DEFINITION',
+      // v-once, v-pre
+      'RENDER_MODIFIERS',
+      // v-slot, slot
+      'SLOT',
+      // v-model
+      'TWO_WAY_BINDING',
+      // v-text, v-html
+      'CONTENT',
+      // v-custom-directive
+      'OTHER_DIRECTIVES',
+      // id
+      'GLOBAL',
+      // ATTR_STATIC: prop="foo" custom-prop="foo"
+      // ATTR_DYNAMIC: v-bind:prop="foo", :prop="foo"
+      // ATTR_SHORTHAND_BOOL: boolean-prop
+      'OTHER_ATTR',
+      // @click="functionCall", v-on="event"
+      'EVENTS',
+    ],
+  }],
+  // 单行元素的内容前后不需要换行符
+  'vue/singleline-html-element-content-newline': 'off',
+  // 关闭组件属性连字符命名强制, 以更好的支持 Vue 3.4+ 同名简写
+  // 例如在使用同名简写时, `:isActive` 将被解析为 `is-active`, 这时候通过变量名 `isActive` 通过 `Ctrl + D` 快速选中会非常不方便
+  'vue/attribute-hyphenation': 'off',
+};
+
+function toArray(value) {
+  return Array.isArray(value)
+    ? value
+    : value == null
+      ? []
+      : [value];
+}
+
+function mergeUnique(...values) {
+  return [...new Set(values.flatMap(value => toArray(value)))];
+}
+
+export default function moomfe(options, ...userConfigs) {
+  const composer = antfu(
     {
       ...options,
       stylistic: {
@@ -32,83 +120,6 @@ export default (options, ...userConfigs) => {
       },
     },
     {
-      name: 'moomfe/vue/rules',
-      files: [GLOB_VUE, '**/*.uvue'],
-      rules: {
-        // <script> 缩进选项
-        'vue/script-indent': ['error', 2, {
-          baseIndent: 1,
-          switchCase: 1,
-        }],
-        // 与 `vue/script-indent` 规则冲突
-        'style/indent': 'off',
-        // 组件顶级元素顺序
-        'vue/block-order': ['error', {
-          order: [
-            ['script', 'template'],
-            'style',
-          ],
-        }],
-        // 选项式组件属性排序
-        'vue/order-in-components': ['error', {
-          order: [
-            'name',
-            'extends',
-            'functional',
-            'model',
-            ['provide', 'inject'],
-            ['props', 'propsData'],
-            'emits',
-            'setup',
-            'data',
-            'computed',
-            'methods',
-            ['template', 'render'],
-            'watch',
-            'LIFECYCLE_HOOKS',
-            ['components', 'directives', 'filters'],
-            'mixins',
-          ],
-        }],
-        // 属性顺序
-        'vue/attributes-order': ['error', {
-          order: [
-            // v-if, v-else-if, v-else, v-show, v-cloak
-            'CONDITIONALS',
-            // v-for
-            'LIST_RENDERING',
-            // ref, key
-            'UNIQUE',
-            // is, v-is
-            'DEFINITION',
-            // v-once, v-pre
-            'RENDER_MODIFIERS',
-            // v-slot, slot
-            'SLOT',
-            // v-model
-            'TWO_WAY_BINDING',
-            // v-text, v-html
-            'CONTENT',
-            // v-custom-directive
-            'OTHER_DIRECTIVES',
-            // id
-            'GLOBAL',
-            // ATTR_STATIC: prop="foo" custom-prop="foo"
-            // ATTR_DYNAMIC: v-bind:prop="foo", :prop="foo"
-            // ATTR_SHORTHAND_BOOL: boolean-prop
-            'OTHER_ATTR',
-            // @click="functionCall", v-on="event"
-            'EVENTS',
-          ],
-        }],
-        // 单行元素的内容前后不需要换行符
-        'vue/singleline-html-element-content-newline': 'off',
-        // 关闭组件属性连字符命名强制, 以更好的支持 Vue 3.4+ 同名简写
-        // 例如在使用同名简写时, `:isActive` 将被解析为 `is-active`, 这时候通过变量名 `isActive` 通过 `Ctrl + D` 快速选中会非常不方便
-        'vue/attribute-hyphenation': 'off',
-      },
-    },
-    {
       name: 'moomfe/jsx/rules',
       rules: {
         'style/jsx-one-expression-per-line': 'off',
@@ -116,4 +127,28 @@ export default (options, ...userConfigs) => {
     },
     ...userConfigs,
   );
-};
+
+  return composer.onResolved((configs) => {
+    const vueRulesConfig = configs.find(config => config.name === 'antfu/vue/rules');
+
+    if (!vueRulesConfig)
+      return configs;
+
+    const parserOptions = vueRulesConfig.languageOptions?.parserOptions ?? {};
+
+    vueRulesConfig.files = mergeUnique(vueRulesConfig.files, [GLOB_VUE, GLOB_UVUE]);
+    vueRulesConfig.languageOptions = {
+      ...vueRulesConfig.languageOptions,
+      parserOptions: {
+        ...parserOptions,
+        extraFileExtensions: mergeUnique(parserOptions.extraFileExtensions, ['.vue', '.uvue']),
+      },
+    };
+    vueRulesConfig.rules = {
+      ...vueRulesConfig.rules,
+      ...MOOMFE_VUE_RULES,
+    };
+
+    return configs;
+  });
+}
