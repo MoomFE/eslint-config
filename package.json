@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^8.0.0",
-    "eslint": "^10.1.0",
+    "eslint": "^10.2.0",
     "typescript": "^6.0.2"
   },
   "devDependencies": {
