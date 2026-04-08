@@ -1,3 +1,9 @@
 import moomfe from './src/index.mjs';
 
-export default moomfe();
+export default moomfe(
+  {},
+  {
+    name: 'ignore',
+    ignores: ['**/.agents/**'],
+  },
+);
