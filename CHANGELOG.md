@@ -1,7 +1,7 @@
 ## [Unreleased]
 
-## [v3.8.0-beta.1]
-  - 📅 2026-04-08
+## [v3.8.0], [-beta.1][v3.8.0-beta.1]
+  - 📅 2026-06-04
   - 💄 升级依赖类库
   - 🐞 修复在非 `vue` 环境中使用时报错的问题
   - ⚠️ 升级 `typescript` 到 `v6` 版本
@@ -254,7 +254,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.8.0-beta.1...HEAD
+[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.8.0...HEAD
+[v3.8.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.8.0
 [v3.8.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.8.0-beta.1
 [v3.7.4]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.4
 [v3.7.3]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.3
