@@ -22,14 +22,14 @@ importers:
         specifier: ^11.0.4
         version: 11.0.4
       fs-extra:
-        specifier: ^11.3.5
-        version: 11.3.5
+        specifier: ^11.3.6
+        version: 11.3.6
       lint-staged:
-        specifier: ^17.0.7
-        version: 17.0.7
+        specifier: ^17.0.8
+        version: 17.0.8
       pnpm:
-        specifier: ^11.5.1
-        version: 11.5.1
+        specifier: ^11.9.0
+        version: 11.9.0
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
@@ -1195,8 +1195,8 @@ packages:
     resolution: {integrity: sha512-wzsgA6WOq+09wrU1tsJ09udeR/YZRaeArL9e1wPbFg3GG2yDnC2ldKpxs4xunpFF9DgqCqOIra3bc1HWrJ37Ww==}
     engines: {node: '>=0.4.x'}
 
-  fs-extra@11.3.5:
-    resolution: {integrity: sha512-eKpRKAovdpZtR1WopLHxlBWvAgPny3c4gX1G5Jhwmmw4XJj0ifSD5qB5TOo8hmA0wlRKDAOAhEE1yVPgs6Fgcg==}
+  fs-extra@11.3.6:
+    resolution: {integrity: sha512-w8ZNZr2mKIc7qeNaQ9AVPT1+iFaI+Avd4xudVOvdDJ8VytREi1Ft5Ih7hd9jjehod8vAM5GMsfQ/TpPf4EyoEA==}
     engines: {node: '>=14.14'}
 
   fsevents@2.3.3:
@@ -1384,8 +1384,8 @@ packages:
     resolution: {integrity: sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==}
     engines: {node: '>= 12.0.0'}
 
-  lint-staged@17.0.7:
-    resolution: {integrity: sha512-JrSobt+tW3rH8IOMi8tDZd3foorM5yPEkLD/V2NxobgHrFfHWGee4MOLVuZeScgxftEwbHrPHIFA/ZL+nUJeuA==}
+  lint-staged@17.0.8:
+    resolution: {integrity: sha512-B2P/d+jVW0UXOQ0MVMLrB/9ydA1P+zz6jYfdrbbEd9ur3S2rcbduFWKiUCC02Sm5hbC8nrm7y24WuYMG54HfxA==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -1648,8 +1648,8 @@ packages:
   pnpm-workspace-yaml@1.6.1:
     resolution: {integrity: sha512-yTeZntGWi8m9WNuhoVsP0DpFc4sC1U0+rr/qR6Zi9n2g3sxXY+JfccjXjjruNz96tM8I09yaJUA86doRnNLkbg==}
 
-  pnpm@11.5.1:
-    resolution: {integrity: sha512-k/e1dCLqcGglcjW0wW62B2LraOHcI3IxmcxzkEPqm+LEFDJ0o5nYxt76KxF2Im2cocS2NILWIAwaj7qnjB0UhQ==}
+  pnpm@11.9.0:
+    resolution: {integrity: sha512-vWgtXQP+Ul73yf1ngMaITR51asTJyf4AxTh4KCQxDc+Q493E9Tg18G3669UIXkGFXgvLs7YN4qxburieUDbwOw==}
     engines: {node: '>=22.13'}
     hasBin: true
 
@@ -3139,7 +3139,7 @@ snapshots:
 
   format@0.2.2: {}
 
-  fs-extra@11.3.5:
+  fs-extra@11.3.6:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.2.1
@@ -3280,7 +3280,7 @@ snapshots:
       lightningcss-win32-arm64-msvc: 1.32.0
       lightningcss-win32-x64-msvc: 1.32.0
 
-  lint-staged@17.0.7:
+  lint-staged@17.0.8:
     dependencies:
       listr2: 10.2.1
       picomatch: 4.0.4
@@ -3750,7 +3750,7 @@ snapshots:
     dependencies:
       yaml: 2.9.0
 
-  pnpm@11.5.1: {}
+  pnpm@11.9.0: {}
 
   postcss-selector-parser@7.1.1:
     dependencies:
