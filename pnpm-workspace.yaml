@@ -1,11 +1,11 @@
-shellEmulator: true
-
+minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
-
-onlyBuiltDependencies:
-  - esbuild
-  - simple-git-hooks
+shellEmulator: true
 
 allowBuilds:
   esbuild: true
   simple-git-hooks: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks

@@ -74,10 +74,14 @@ it('会在 Vue 项目中保留自定义 Vue 规则并支持 uvue', { concurrent:
   expect(Array.isArray(vueRulesConfig.files)).toBe(true);
   expect(vueRulesConfig.files).toContain(GLOB_UVUE);
   expect(vueRulesConfig.languageOptions?.parserOptions?.extraFileExtensions).toContain('.uvue');
-  expect(vueRulesConfig.rules['vue/script-indent']).toEqual(['error', 2, {
-    baseIndent: 1,
-    switchCase: 1,
-  }]);
+  expect(vueRulesConfig.rules['vue/script-indent']).toEqual([
+    'error',
+    2,
+    {
+      baseIndent: 1,
+      switchCase: 1,
+    },
+  ]);
   expect(vueRulesConfig.rules['style/indent']).toBe('off');
   expect(vueRulesConfig.rules['vue/attribute-hyphenation']).toBe('off');
 });

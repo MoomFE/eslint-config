@@ -19,4 +19,6 @@ window.a;
 a && console.log(a);
 
 // 允许三元表达式
-a ? console.log(a) : console.log(a);
+a
+  ? console.log(a)
+  : console.log(a);

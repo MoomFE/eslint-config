@@ -8,7 +8,9 @@ import { build } from 'vite';
       lib: {
         entry: 'src/index.mjs',
         formats: ['es', 'cjs'],
-        fileName: format => `index.${format === 'es' ? 'mjs' : format}`,
+        fileName: format => `index.${format === 'es'
+          ? 'mjs'
+          : format}`,
       },
       minify: false,
       emptyOutDir: true,

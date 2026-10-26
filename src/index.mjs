@@ -4,71 +4,84 @@ const GLOB_UVUE = '**/*.uvue';
 
 const MOOMFE_VUE_RULES = {
   // <script> 缩进选项
-  'vue/script-indent': ['error', 2, {
-    baseIndent: 1,
-    switchCase: 1,
-  }],
+  'vue/script-indent': [
+    'error',
+    2,
+    {
+      baseIndent: 1,
+      switchCase: 1,
+    },
+  ],
   // 与 `vue/script-indent` 规则冲突
   'style/indent': 'off',
   // 组件顶级元素顺序
-  'vue/block-order': ['error', {
-    order: [
-      ['script', 'template'],
-      'style',
-    ],
-  }],
+  'vue/block-order': [
+    'error',
+    {
+      order: [
+        ['script', 'template'],
+        'style',
+      ],
+    },
+  ],
   // 选项式组件属性排序
-  'vue/order-in-components': ['error', {
-    order: [
-      'name',
-      'extends',
-      'functional',
-      'model',
-      ['provide', 'inject'],
-      ['props', 'propsData'],
-      'emits',
-      'setup',
-      'data',
-      'computed',
-      'methods',
-      ['template', 'render'],
-      'watch',
-      'LIFECYCLE_HOOKS',
-      ['components', 'directives', 'filters'],
-      'mixins',
-    ],
-  }],
+  'vue/order-in-components': [
+    'error',
+    {
+      order: [
+        'name',
+        'extends',
+        'functional',
+        'model',
+        ['provide', 'inject'],
+        ['props', 'propsData'],
+        'emits',
+        'setup',
+        'data',
+        'computed',
+        'methods',
+        ['template', 'render'],
+        'watch',
+        'LIFECYCLE_HOOKS',
+        ['components', 'directives', 'filters'],
+        'mixins',
+      ],
+    },
+  ],
   // 属性顺序
-  'vue/attributes-order': ['error', {
-    order: [
-      // v-if, v-else-if, v-else, v-show, v-cloak
-      'CONDITIONALS',
-      // v-for
-      'LIST_RENDERING',
-      // ref, key
-      'UNIQUE',
-      // is, v-is
-      'DEFINITION',
-      // v-once, v-pre
-      'RENDER_MODIFIERS',
-      // v-slot, slot
-      'SLOT',
-      // v-model
-      'TWO_WAY_BINDING',
-      // v-text, v-html
-      'CONTENT',
-      // v-custom-directive
-      'OTHER_DIRECTIVES',
-      // id
-      'GLOBAL',
-      // ATTR_STATIC: prop="foo" custom-prop="foo"
-      // ATTR_DYNAMIC: v-bind:prop="foo", :prop="foo"
-      // ATTR_SHORTHAND_BOOL: boolean-prop
-      'OTHER_ATTR',
-      // @click="functionCall", v-on="event"
-      'EVENTS',
-    ],
-  }],
+  'vue/attributes-order': [
+    'error',
+    {
+      order: [
+        // v-if, v-else-if, v-else, v-show, v-cloak
+        'CONDITIONALS',
+        // v-for
+        'LIST_RENDERING',
+        // ref, key
+        'UNIQUE',
+        // is, v-is
+        'DEFINITION',
+        // v-once, v-pre
+        'RENDER_MODIFIERS',
+        // v-slot, slot
+        'SLOT',
+        // v-model
+        'TWO_WAY_BINDING',
+        // v-text, v-html
+        'CONTENT',
+        // v-custom-directive
+        'OTHER_DIRECTIVES',
+        // id
+        'GLOBAL',
+        // ATTR_STATIC: prop="foo" custom-prop="foo"
+        // ATTR_DYNAMIC: v-bind:prop="foo", :prop="foo"
+        // ATTR_SHORTHAND_BOOL: boolean-prop
+        'OTHER_ATTR',
+        // @click="functionCall", v-on="event"
+        'EVENTS',
+      ],
+    },
+  ],
   // 单行元素的内容前后不需要换行符
   'vue/singleline-html-element-content-newline': 'off',
   // 关闭组件属性连字符命名强制, 以更好的支持 Vue 3.4+ 同名简写
@@ -85,7 +98,9 @@ function toArray(value) {
 }
 
 function mergeUnique(...values) {
-  return [...new Set(values.flatMap(value => toArray(value)))];
+  return [
+    ...new Set(values.flatMap(value => toArray(value))),
+  ];
 }
 
 export default function moomfe(options, ...userConfigs) {
@@ -108,15 +123,21 @@ export default function moomfe(options, ...userConfigs) {
         // 允许在 if 语句后不换行
         'antfu/if-newline': 'off',
         // `@ts-expect-error` 等指令的描述不必填
-        'ts/ban-ts-comment': ['error', {
-          'ts-ignore': 'allow-with-description',
-          'minimumDescriptionLength': 0,
-        }],
+        'ts/ban-ts-comment': [
+          'error',
+          {
+            'ts-ignore': 'allow-with-description',
+            'minimumDescriptionLength': 0,
+          },
+        ],
         // 允许短路求值及三元表达式
-        'ts/no-unused-expressions': ['error', {
-          allowShortCircuit: true,
-          allowTernary: true,
-        }],
+        'ts/no-unused-expressions': [
+          'error',
+          {
+            allowShortCircuit: true,
+            allowTernary: true,
+          },
+        ],
       },
     },
     {
