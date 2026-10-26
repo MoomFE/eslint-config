@@ -39,19 +39,19 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^9.2.0",
-    "eslint": "^10.8.0",
+    "eslint": "^10.13.0",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "fs-extra": "^11.4.0",
-    "lint-staged": "^17.3.0",
+    "fs-extra": "^11.4.1",
+    "lint-staged": "^17.6.0",
     "pnpm": "^11.18.0",
-    "simple-git-hooks": "^2.13.1",
-    "tsx": "^4.23.13",
-    "vite": "^8.2.2",
+    "simple-git-hooks": "^2.14.0",
+    "tsx": "^4.23.15",
+    "vite": "^8.3.5",
     "vitest": "^4.1.10",
-    "vue": "^3.5.40"
+    "vue": "^3.5.44"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
