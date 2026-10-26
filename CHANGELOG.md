@@ -1,4 +1,6 @@
 ## [Unreleased]
+  - 💄 升级依赖类库
+  - 💄 启用 `antfu/reasonable-newline` 规则
 
 ## [v3.8.0], [-beta.1][v3.8.0-beta.1]
   - 📅 2026-06-04
