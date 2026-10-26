@@ -56,7 +56,7 @@ function hasVueRules(configs) {
   return configs.some(config => Object.keys(config.rules ?? {}).some(rule => rule.startsWith('vue/')));
 }
 
-it.sequential('不会在非 Vue 项目中注入 Vue 插件或规则', async () => {
+it('不会在非 Vue 项目中注入 Vue 插件或规则', { concurrent: false }, async () => {
   const dir = await createProject();
   const configs = await withCwd(dir, () => moomfe());
 
@@ -65,7 +65,7 @@ it.sequential('不会在非 Vue 项目中注入 Vue 插件或规则', async () =
   expect(configs.some(config => config.name === 'antfu/vue/rules')).toBe(false);
 });
 
-it.sequential('会在 Vue 项目中保留自定义 Vue 规则并支持 uvue', async () => {
+it('会在 Vue 项目中保留自定义 Vue 规则并支持 uvue', { concurrent: false }, async () => {
   const dir = await createProject({ vue: true });
   const configs = await withCwd(dir, () => moomfe());
   const vueRulesConfig = configs.find(config => config.name === 'antfu/vue/rules');
