@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [v3.9.0]
+  - 📅 2026-10-26
   - 💄 升级依赖类库
   - 💄 启用 `antfu/reasonable-newline` 规则
 
@@ -256,7 +259,8 @@ CHANGELOG 图标规范
 <hr>
 <br>
 
-[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.8.0...HEAD
+[Unreleased]: https://github.com/MoomFE/eslint-config/compare/v3.9.0...HEAD
+[v3.9.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.9.0
 [v3.8.0]: https://github.com/MoomFE/eslint-config/releases/tag/v3.8.0
 [v3.8.0-beta.1]: https://github.com/MoomFE/eslint-config/releases/tag/v3.8.0-beta.1
 [v3.7.4]: https://github.com/MoomFE/eslint-config/releases/tag/v3.7.4
