@@ -4,8 +4,10 @@ shellEmulator: true
 
 allowBuilds:
   esbuild: true
+  pnpm: true
   simple-git-hooks: true
 
 onlyBuiltDependencies:
   - esbuild
+  - pnpm
   - simple-git-hooks
